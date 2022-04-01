@@ -1,0 +1,151 @@
+Algoritmo "EXE0_GABRIELLY"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gabrielly Cristine
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("ola a todos!")
+
+
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------
+Algoritmo "EXE1_IDADE_GABRIELLY"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   :
+// Autor(a)    : Gabrielly Cristine
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+nome:caracter
+data_hj, data_nc,idade: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva( "digite o nome da pessoa: ")
+leia(nome)
+escreva(" digite a data atual: ")
+leia(data_hj)
+escreva(" digite a data de nascimento: ")
+leia(data_nc)
+ idade<-data_hj-data_nc
+ escreva(" a idade de ",nome, " é ",idade,"anos")
+ 
+
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------
+Algoritmo "EXE2_VOTO_GABRIELLY.ALG"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gabrielly Croistine
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+idade: inteiro
+nome: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva(" digite o nome da pessoa: ")
+leia(nome)
+escreva( "digite a sua idade: ")
+leia(idade)
+se idade < 16 entao
+escreva(" não tem idade para votar")
+senao
+se (idade >=16 e idade < 18 ou idade >=70)
+entao
+escreva("seu voto é opcional")
+senao
+escreva("seu voto é obrigatorio!")
+fimse
+fimse
+fimalgoritmo
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Algoritmo "EXE3_JOGOSOMA_GABRIELLY "
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : jogo de soma
+// Autor(a)    : Gabrielly Cristine
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+n1, n2, soma, acertos, resposta: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ acertos <- -1
+
+    enquanto (resposta = soma)faca
+      n1 <- randi(10)
+      n2 <- randi(10)
+      soma <- n1 + n2
+      escreva("Quanto e ", n1, " + ", n2, "? ")
+      leia(resposta)
+      acertos <- acertos + 1
+
+    fimenquanto
+
+    escreva("VOCE PERDEU ANTA!")
+    escreva("Quantidade de acertos: ", acertos)
+
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------
+Algoritmo "EXE4_CONTADOR_GABRIELLY"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+cont: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ enquanto (contador < 11) faca
+       escreva(contador)
+      (contador <- contador + 1)
+      
+      fimenquanto
+
+Fimalgoritmo
+--------------------------------------------------------------------------------------------------------------------------------------
+Algoritmo "EXE5_SEXO_GABRIELLY"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Gabrielly Cristine
+// Data atual  : 01/04/2022
+Var
+// Seção de Declarações das variáveis 
+ sexo: caracter
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva( "M = MULHER | H = HOMEM | MULHER TRANS = MT | HOMEM TRANS = HT | OUTROS = O ")
+escreva( "digite uma sigla para o seu sexo: ")
+leia(sexo)
+escolha sexo
+caso "M"
+escreva("voce e mulher!")
+caso "H"
+escreva("voce e homem!")
+caso "MT"
+escreva(" voce e mulher trans")
+caso "HT"
+escreva("voce e homem trans")
+caso "O"
+escreva(" voce e outros")
+fimescolha
+
+Fimalgoritmo
+
