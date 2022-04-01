@@ -1,0 +1,24 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : ISABELLE COSTA
+// Data atual  : 30/03/2022
+Var
+// Seção de Declarações das variáveis
+V, Z : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval("Digite um numero: ")
+leia(V)
+escreval("Digite outro numero: ")
+leia(Z)
+
+escreval("A soma desses numeros é : ",V+Z)
+escreval("A subtração desses numeros é: ",V-Z)
+escreval("A multiplicação desses numeros é: ",V*Z)
+escreval("S divisão desses numeros é: ",V/Z)
+
+Fimalgoritmo
